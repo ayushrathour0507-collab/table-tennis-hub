@@ -2,3 +2,4 @@ com\tthub\controller\LogoutServlet.class
 com\tthub\controller\RegisterServlet.class
 com\tthub\controller\LoginServlet.class
 com\tthub\util\DBUtil.class
+com\tthub\controller\DBTestServlet.class
