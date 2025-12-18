@@ -7,12 +7,14 @@ public class DBUtil {
 
     public static Connection getConnection() {
         try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("org.postgresql.Driver");
 
+            // Neon DB (Postgres) connection
+            // URL derived from: postgresql://neondb_owner:***@ep-bold-morning-.../neondb?sslmode=require&channel_binding=require
             return DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/table_tennis_hub?useSSL=false&serverTimezone=UTC",
-                "root",
-                "Ayush@12"
+                "jdbc:postgresql://ep-bold-morning-a4439zlt-pooler.us-east-1.aws.neon.tech:5432/neondb?sslmode=require&channel_binding=require",
+                "neondb_owner",
+                "npg_5j7WVEMJdxtl"
             );
 
         } catch (Exception e) {
