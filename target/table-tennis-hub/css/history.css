@@ -1,0 +1,39 @@
+body {
+    background: #ffffff;
+    color: #222;
+    font-family: 'Poppins', sans-serif;
+}
+
+.history-container {
+    max-width: 900px;
+    margin: 120px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
+    text-align: center;
+}
+
+.history-subtitle {
+    text-align: center;
+    margin: 15px 0 50px;
+    color: #555;
+}
+
+.history-section {
+    margin-bottom: 40px;
+}
+
+.history-section h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.history-section p,
+.history-section li {
+    line-height: 1.7;
+    font-size: 15px;
+}
